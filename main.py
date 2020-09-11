@@ -25,13 +25,13 @@ courseOneCredit = float(input("Enter your course 1 credit: "))
 courseOneGradePoint = getGradePoint(courseOneLetterGrade)
 print(f"Grade point for course 1 is: {courseOneGradePoint}")  
 
-courseTwoLetterGrade = input("Enter your course 1 letter grade: ")  
-courseTwoCredit = float(input("Enter your course 1 credit: "))
+courseTwoLetterGrade = input("Enter your course 2 letter grade: ")  
+courseTwoCredit = float(input("Enter your course 2 credit: "))
 courseTwoGradePoint = getGradePoint(courseTwoLetterGrade)
 print(f"Grade point for course 2 is: {courseTwoGradePoint}")  
 
-courseThreeLetterGrade = input("Enter your course 1 letter grade: ")
-courseThreeCredit = float(input("Enter your course 1 credit: ")) 
+courseThreeLetterGrade = input("Enter your course 3 letter grade: ")
+courseThreeCredit = float(input("Enter your course 3 credit: ")) 
 courseThreeGradePoint = getGradePoint(courseThreeLetterGrade)
 print(f"Grade point for course 3 is: {courseThreeGradePoint}")  
 
