@@ -20,7 +20,7 @@ def getGradePoint(grade):
   else:
     return 0.0
  
-courseOneLetterGrade = input("Enter your course 1 letter grade:")   
+courseOneLetterGrade = input("Enter your course 1 letter grade: ")   
 courseOneCredit = float(input("Enter your course 1 credit: "))
 courseOneGradePoint = getGradePoint(courseOneLetterGrade)
 print(f"Grade point for course 1 is: {courseOneGradePoint}")  
